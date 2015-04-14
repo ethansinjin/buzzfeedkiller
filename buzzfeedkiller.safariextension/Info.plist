@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Ethan Gill</string>
+	<key>Builder Version</key>
+	<string>10600.5.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>BuzzFeed Killer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ethansinjin.buzzfeedkiller</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>hide.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Prevents your brain from being damaged by blocking BuzzFeed</string>
+	<key>DeveloperIdentifier</key>
+	<string>K2P452F89V</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.buzzfeed.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://ethansinjin.com</string>
+</dict>
+</plist>

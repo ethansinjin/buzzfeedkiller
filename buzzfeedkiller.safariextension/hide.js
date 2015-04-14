@@ -1,0 +1,22 @@
+// // create a para and insert it at the top of the body
+var header = document.createElement("h1");
+header.textContent = "Why are you on BuzzFeed?";
+header.style.color = "red";
+header.style.float = "left";
+header.style.margin = "10% 25% 5% 25%";
+var paragraph = document.createElement("p");
+paragraph.textContent = "There obviously has to be some mistake. No one in their right mind would even consider visiting this cesspool of internet \'journalism\'. Are you insane? Did you accidentally click a link? Did malware redirect your browser to this page? Did someone else try to show you something they thought was funny? Try navigating to a better website.";
+paragraph.style.color = "red";
+paragraph.style.float = "left";
+paragraph.style.margin = "0% 25% 2% 25%";
+var link = document.createElement('a');
+var linkText = document.createTextNode("@ethansinjin");
+link.appendChild(linkText);
+link.title = "Twitter";
+link.href = "http://twitter.com/ethansinjin";
+document.body.appendChild(link);
+link.style.margin = "0% 25% 0% 25%";
+document.body.innerHTML = '';
+document.body.insertBefore(link, document.body.firstChild);
+document.body.insertBefore(paragraph, document.body.firstChild);
+document.body.insertBefore(header, document.body.firstChild);
