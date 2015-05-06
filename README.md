@@ -26,7 +26,7 @@ But what if I really want to read a BuzzFeed article once in a while?
 
 I find this hilarious and want to give you money.
 
-* I'm not sure why you would want to do that. [Donate to Charity instead.](http://www.redcross.org).
+* I'm not sure why you would want to do that. [Donate to Charity instead](http://www.redcross.org).
 
 ### Authors and Contributors
 This Safari Extension was created by @ethansinjin in about 15 minutes.
